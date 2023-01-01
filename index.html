@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" style="scroll-behavior: smooth;">
     <head>
-      <link rel="stylesheet" href="sol.css">
+      
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Astronomica</title>
 <link rel="stylesheet" href="w3schools.css">
 
 <style>
@@ -10,6 +13,24 @@
   }
 h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar{
+  width : 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+} 
+
+::-webkit-scrollbar-thumb {
+  background-color: midnightblue;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(16, 16, 70);
 }
 </style>
     </head>
@@ -23,6 +44,7 @@ h3 {
     <div class="w3-right w3-hide-small" style="color: whitesmoke;">
       <a href="#about" class="w3-bar-item w3-btn">About</a>
       <a href="#menu" class="w3-bar-item w3-btn">Products</a>
+      <a href="#pricing" class="w3-bar-item w3-btn">Pricing</a>
       <a href="#planets" class="w3-bar-item w3-btn">planets</a>
       <a href="#contact" class="w3-bar-item w3-btn">Contact</a>
     </div>
@@ -31,6 +53,7 @@ h3 {
 
 
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  
  <img class="w3-image" src="Assets/headersolar.jpg">
 
   <div class="w3-display-bottomright w3-padding-large w3-opacity">
@@ -118,6 +141,84 @@ h3 {
       </div>
     </div>
   </div>
+
+  <!-- Promo Section "Statistics" -->
+ 
+  <div class="w3-container w3-row w3-center w3-padding" style="background-color: midnightblue; color: whitesmoke;">
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">14+</span>
+      <br>Partners
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">55+</span>
+      <br>Projects Done
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">89k+</span>
+      <br>Happy Clients
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">150+</span>
+      <br>Meetings
+    </div>
+  </div>
+  
+  <!-- Pricing Section -->
+  <div class="w3-container w3-center" style="padding:128px 16px" id="pricing">
+    <h3>PRICING</h3>
+    <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white ">
+          <li class=" w3-xlarge w3-padding-32" style="background-color: black;font-weight: bold;color: whitesmoke;border-radius: 10px;">Basic</li>
+          <li class="w3-padding-16"><b>10GB</b> NASA INFO Storage</li>
+          <li class="w3-padding-16"><b>10</b> Astronomical Books</li>
+          <li class="w3-padding-16"><b>10</b> Signs By Astronomer</li>
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large" style="border-radius: 10px;">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third">
+        <ul class="w3-ul w3-white ">
+          <li class=" w3-xlarge w3-padding-48" style="background-color: midnightblue;font-weight: bold;color: whitesmoke;border-radius: 10px;">Pro</li>
+          <li class="w3-padding-16"><b>25GB</b> NASA INFO Storage</li>
+          <li class="w3-padding-16"><b>25</b> Astronomical Books</li>
+          <li class="w3-padding-16"><b>25</b> Signs By Astronomer</li>
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-padding-large" style="border-radius: 10px;background-color: midnightblue;font-weight: bold;color: whitesmoke;">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white">
+          <li class="w3-xlarge w3-padding-32" style="border-radius: 10px; background-color: black;font-weight: bold;color: whitesmoke;">Premium</li>
+          <li class="w3-padding-16"><b>50GB</b> NASA INFO Storage</li>
+          <li class="w3-padding-16"><b>50</b> Astronomical Books</li>
+          <li class="w3-padding-16"><b>50</b> Signs By Astronomer</li>
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide">$ 50</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large" style="border-radius: 10px;">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
 
 <!-- the planets and such -->
   <div class="w3-row w3-padding w3-card-4" style="background-color: midnightblue;color: whitesmoke;" id="planets">
